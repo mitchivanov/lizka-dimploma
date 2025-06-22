@@ -29,6 +29,7 @@ import { useState } from 'react';
 import './App.css';
 import Home from './pages/Home';
 import CompanyPage from './pages/CompanyPage';
+import DealsPage from './pages/DealsPage';
 
 // Создаем тему для Material UI
 const theme = createTheme({
@@ -135,6 +136,14 @@ const AppWithAuth = () => (
         element={
           <ProtectedRoute>
             <CompanyPage />
+          </ProtectedRoute>
+        }
+      />
+      <Route 
+        path="/deals" 
+        element={
+          <ProtectedRoute>
+            <DealsPage />
           </ProtectedRoute>
         }
       />

@@ -1,10 +1,16 @@
+// Импорты логотипов
+import dodoPizzaLogo from '../assets/dodo_pizza_logo.png';
+import tanukiLogo from '../assets/tanuki_logo.png';
+import coffeehouseLogo from '../assets/coffeehouse_logo.png';
+import hlebnasushLogo from '../assets/hlebnasush_logo.png';
+
 export const companies = [
   {
     id: 1,
     name: "Додо Пицца",
     slogan: "Вкус, проверенный временем.",
     description: "Сеть пиццерий, известная своим быстрым обслуживанием и качественной продукцией.",
-    logo: "https://dodopizza-a.akamaihd.net/site-static/dist/f30f1ab8cd7a7a54476d.svg",
+    logo: dodoPizzaLogo,
     rating: 4.9,
     employees: 150,
     year_founded: 2011,
@@ -22,7 +28,7 @@ export const companies = [
     name: "Тануки",
     slogan: "Настоящий вкус Японии.",
     description: "Сеть ресторанов японской кухни с акцентом на качественные и свежие ингредиенты.",
-    logo: "https://tanuki.ru/dist/images/tanuki-logoW.svg",
+    logo: tanukiLogo,
     rating: 4.8,
     employees: 80,
     year_founded: 2008,
@@ -40,7 +46,7 @@ export const companies = [
     name: "Кофе Хауз",
     slogan: "Ваш заряд бодрости.",
     description: "Сеть кофеен, предлагающая широкий ассортимент авторских напитков и десертов.",
-    logo: "https://www.coffeehou.se/images/coffeehouse-logo.webp",
+    logo: coffeehouseLogo,
     rating: 4.7,
     employees: 60,
     year_founded: 2010,
@@ -58,7 +64,7 @@ export const companies = [
     name: "Хлеб Насущный",
     slogan: "Каждый день с любовью.",
     description: "Сеть пекарен, известная свежей выпечкой и традиционными рецептами.",
-    logo: "https://www.hlebnasushny.ru/assets/img/logo-color.svg",
+    logo: hlebnasushLogo,
     rating: 4.6,
     employees: 45,
     year_founded: 2012,
